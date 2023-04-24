@@ -56,7 +56,7 @@ q6 = st.radio('', ["Yes", "No", "Sometimes"], index=0, key=6, horizontal=True)
 st.subheader('Do you experience any breathing problems?')
 q7 = st.radio('', ["Yes", "No", "Sometimes"], index=0, key=7, horizontal=True)
 
-st.subheader('Do you have gum problems/disease?')
+st.subheader('Have you experience nausea?')
 q8 = st.radio('', ["Yes", "No", "Sometimes"], index=0, key=8, horizontal=True)
 
 if st.button('Classify'):
