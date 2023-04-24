@@ -23,11 +23,11 @@ def predict_naive_bayes(q1, q2, q3, q4, q5, q6, q7, q8):
     
     # Map the integer prediction to the corresponding word
     if prediction[0] == 0:
-        prediction_word = 'less addictive to alcohol'
+        prediction_word = 'less addictive to alcohol: You are not addicted to alcohol but make sure to drink moderately.'
     elif prediction[0] == 1:
-        prediction_word = 'mildly addictive to alcohol'
+        prediction_word = 'mildly addictive to alcohol: Nothing to worry much yet, but you should be a little more careful at this stage. If symptoms persist you may have more frequent mild speech, memory, attention, coordination, balance impairments. Always watch drinking habits and drink responsibly.'
     else:
-        prediction_word = 'high addiction to alcohol'
+        prediction_word = 'high addiction to alcohol: You need to have a consultation with a therapist or doctor to prevent life-threatening cases or severe impairment.'
     
     # Return the predicted value
     return prediction_word
